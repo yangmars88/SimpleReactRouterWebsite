@@ -1,0 +1,54 @@
+body{
+    background-color: skyblue;
+    padding:20px;
+    margin:0;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size:35px;
+}
+
+h1,h2,p,ul,li{
+    font-family:sans-serif;
+}
+
+ul.header h2{
+    display:inline;
+    list-style-type:none;
+    margin:0;
+}
+
+ul.header{
+    background-color: antiquewhite;
+    padding:0;
+}
+
+ul.header h2 a{
+    color:darkslategrey;
+    font-weight:bold;
+    text-decoration: none;
+    padding:20px;
+    display:inline-block;
+}
+.content{
+    background-color: ghostwhite;
+    padding:20px;
+}
+
+.content h2{
+    padding:0;
+    margin:0;
+}
+
+.content li {
+    margin-bottom: 10px;
+}
+
+.active {
+    background-color: #0099FF;
+}
+/*there is a class name: active  within React router , which will be automatically assigned to the link you clicked.*/
